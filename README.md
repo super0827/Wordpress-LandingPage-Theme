@@ -2,5 +2,6 @@
 Softtech Landing page WordPress theme
 
 ##features
-Drag & drop page builder
-Auto update feature
+- Drag & drop page builder
+- Auto update feature
+- so on...
