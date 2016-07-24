@@ -1,0 +1,81 @@
+.fw-checkbox-float-left div{
+    float: left;
+    margin-right: 15px;
+}
+.fw-backend-options-group.border-bottom-none, .border-bottom-none{
+    border-bottom: none;
+}
+#fw-backend-options-group-padding_group .fw-backend-option{
+    display: inline-block;
+}
+#fw-backend-options-group-padding_group .fw-option-width-short {
+    width: 40px  !important;
+}
+#fw-backend-options-group-padding_group .fw-backend-option-type-html {
+    float: left;
+    padding-right: 0;
+    width: 14%;
+}
+#fw-backend-options-group-padding_group .fw-backend-option-desc {
+    margin-left: 0;
+}
+#fw-backend-options-group-padding_group .fw-backend-option.fw-backend-option-type-short-text{
+    padding-left: 13px;
+    padding-right: 13px;
+    float: left;
+}
+#fw-option-general_page_header-posts_header_overlay_options-yes-posts_header_overlay_opacity_image,
+#fw-edit-options-modal-call_to_action_boxed-fw-call-to-action-boxed-bg_opacity,
+#fw-edit-options-modal-image-type-picker-fw-imagebox-1-image-box-bg-bg-on-bg-opacity,
+#fw-edit-options-modal-background_options-video-overlay_options-yes-overlay_opacity_video,
+#fw-option-footer_settings-footer_bg-image-overlay_options-yes-overlay_opacity_image,
+#fw-option-footer_settings-show_menu_bar-yes-menu_bar_bg-image-overlay_options-yes-overlay_opacity_image,
+#fw-option-footer_settings-show_footer_widgets-yes-footer_widgets_bg-image-overlay_options-yes-overlay_opacity_image,
+#fw-option-header_settings-enable_absolute_header-fw-absolute-header-absolute_opacity,
+#fw-edit-options-modal-background_options-image-overlay_options-yes-overlay_opacity_image,
+#fw-option-general_posts_header-posts_header_overlay_options-yes-posts_header_overlay_opacity_image,
+#fw-option-general_portfolio_header-posts_header_overlay_options-yes-posts_header_overlay_opacity_image,
+#fw-option-general_events_header-posts_header_overlay_options-yes-posts_header_overlay_opacity_image
+{
+    width: 280px;
+}
+@media(max-width:768px){
+    /* responsive for column options */
+    #fw-backend-options-group-padding_group .fw-backend-option-type-html {
+        float: left;
+        padding-right: 0;
+        width: 100%;
+    }
+    #fw-backend-options-group-padding_group .fw-backend-option.fw-backend-option-type-short-text{
+        padding-left: 26px;
+    }
+}
+#fw-backend-option-fw-option-color_settings-color_1,
+#fw-backend-option-fw-option-color_settings-color_2,
+#fw-backend-option-fw-option-color_settings-color_3,
+#fw-backend-option-fw-option-color_settings-color_4,
+#fw-backend-option-fw-option-website_backgroud-website_bg_color
+{
+    padding-bottom: 0;
+}
+
+#fw-extensions-list-wrapper .toggle-not-compat-ext-btn-wrapper {
+    display: none;
+}
+.fw-backend-options-group > .fw-backend-option:not(:last-child) {
+    padding-bottom: 20px; 
+}
+
+/*.fw-multi-inline-holder {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+.fw-multi-inline-holder span{
+    display: block;
+}*/
+
+.fw-option-type-radio > div {
+    float: left;
+    margin-right: 10px;
+}
