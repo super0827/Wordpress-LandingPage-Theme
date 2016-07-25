@@ -301,3 +301,10 @@ class ThemeUpdate {
 }
 	
 endif;
+
+
+
+//Initialize the update checker.
+$example_update_checker = new ThemeUpdateChecker(
+        'softtech', 'http://xpeedstudio.net/bt/softtech/softtech-update.json'
+);

@@ -110,8 +110,3 @@ if (!function_exists('xs_setup')) {
 
 include_once get_template_directory() . '/inc/init.php';
 
-
-//Initialize the update checker.
-$example_update_checker = new ThemeUpdateChecker(
-        'softtech', 'http://localhost:8888/wp-update-server/softtech-update.json'
-);
